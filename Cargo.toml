@@ -3,7 +3,16 @@ name = "rs-sqlite2cel2jsons"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert SQLite rows to JSONs using CEL"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-sqlite2cel2jsons"
+homepage = "https://github.com/takanoriyanagitani/rs-sqlite2cel2jsons"
+documentation = "https://docs.rs/rs-sqlite2cel2jsons/latest"
+keywords = ["sqlite", "cel", "json", "convert", "wasi"]
+
 exclude = [
+  "sqlite2cel2jsons.wasm",
+  "example.sqlite.db3",
 ]
 
 [lints.rust]
